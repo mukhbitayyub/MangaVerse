@@ -1,67 +1,129 @@
 <div align="center">
 
+<img src="mangaverse%20screenshots/Screenshot_20260630_120702.jpg" width="180" alt="MangaVerse"/>
+
 # 📖 MangaVerse
 
 ### Your manga library, anywhere.
 
 A fast, beautiful, ad-free manga reader for Android — discover new series, build your library, and read online or offline with a reader that gets out of your way.
 
-![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square)
-![Price](https://img.shields.io/badge/price-Free-E5484D?style=flat-square)
-![Ads](https://img.shields.io/badge/ads-None-121214?style=flat-square)
+<br>
 
-[⬇️ Download the latest APK](../../releases/latest)
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Ads](https://img.shields.io/badge/Ads-None-E5484D?style=for-the-badge)
+![Offline](https://img.shields.io/badge/Offline-Ready-2E7D32?style=for-the-badge)
+![Price](https://img.shields.io/badge/Free-Forever-1E88E5?style=for-the-badge)
 
+<br>
+
+<a href="https://app.notion.com/releases/latest">
+  <img src="https://img.shields.io/badge/⬇️%20Download%20the%20latest%20APK-181717?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Download APK"/>
+</a>
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+<table>
+  <tr>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120702.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120715.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120724.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120735.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120740.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120744.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120748.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120754.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120802.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120813.jpg" width="200"/></td>
+    <td><img src="mangaverse%20screenshots/Screenshot_20260630_120834.jpg" width="200"/></td>
+    <td></td>
+  </tr>
+</table>
 </div>
 
 ---
 
 ## ✨ Highlights
 
-- 🎯 **Personalised discovery** — trending, top-rated, and freshly updated series, refreshed daily.
-- 📚 **A library that's yours** — bookmark series, track progress, and pick up exactly where you left off.
-- 📥 **True offline reading** — download chapters and read with zero connection.
-- 🌙 **Gorgeous light & dark themes** — a clean, distraction-free design with an OLED-friendly true-black mode.
-- 🔔 **New-chapter alerts** — get notified the moment a series you follow updates.
-- 🌍 **Multi-language** — English, العربية (Arabic), and Español, with full right-to-left support.
+| | |
+|---|---|
+| 🎯 **Personalised discovery** | Trending, top-rated, and freshly updated series, refreshed daily. |
+| 📚 **A library that's yours** | Bookmark series, track progress, and pick up exactly where you left off. |
+| 📥 **True offline reading** | Download chapters and read with zero connection. |
+| 🌙 **Gorgeous light & dark themes** | A clean, distraction-free design with an OLED-friendly true-black mode. |
+| 🔔 **New-chapter alerts** | Get notified the moment a series you follow updates. |
+| 🌍 **Multi-language** | English, العربية (Arabic), and Español, with full right-to-left support. |
 
 ---
 
 ## 🚀 Features in depth
 
-### Discover
+<details open>
+<summary><b>🔎 Discover</b></summary>
+
 - Curated home feed: **Trending**, **Top rated**, **Latest updates**, and **Popular** rows.
 - Browse by **genre** with rich filtering and sorting.
 - **Swipe to discover** — a quick, card-based way to find your next read.
 - Powerful **search** with instant results.
 
-### Read your way
+</details>
+
+<details>
+<summary><b>📖 Read your way</b></summary>
+
 - **Webtoon (vertical)** and **Paged** reading modes.
 - **Left-to-right** and **right-to-left** directions.
 - Pinch and double-tap **zoom**, plus adjustable **page gaps** for a seamless continuous flow.
 - **Keeps your screen awake** while you read.
 - Smooth **chapter-to-chapter** transitions and quick chapter switching.
 
-### Library & history
+</details>
+
+<details>
+<summary><b>🗂️ Library & history</b></summary>
+
 - Save series to your **Library** and organise them into **Collections**.
 - Automatic **reading history** so nothing gets lost.
 - Optional **account sign-in** to **sync your library and progress across devices**.
 
-### Offline & downloads
+</details>
+
+<details>
+<summary><b>📥 Offline & downloads</b></summary>
+
 - Download chapters for **offline reading**.
 - A dedicated **download queue** — pause, resume, or cancel anytime.
 - **Storage manager** to see what's taking space and clear cache per series.
 
-### Stay on top of releases
+</details>
+
+<details>
+<summary><b>🗓️ Stay on top of releases</b></summary>
+
 - A built-in **release calendar** for upcoming and recent updates.
 - **Push notifications** for new chapters.
 - A personal **profile** with reading **stats**.
 
-### Thoughtful design
+</details>
+
+<details>
+<summary><b>🎨 Thoughtful design</b></summary>
+
 - A single, cohesive design language with **Sora** + **Inter** typography.
 - **Light**, **Dark**, and **AMOLED true-black** themes.
 - Beautiful **onboarding** and an animated **splash** to greet you.
 - Built to feel **fast and native** on Android.
+
+</details>
 
 ---
 
@@ -69,7 +131,7 @@ A fast, beautiful, ad-free manga reader for Android — discover new series, bui
 
 > MangaVerse is distributed as a direct APK download. It is not on the Play Store.
 
-1. Go to the [**Releases**](../../releases/latest) page and download the latest `.apk`.
+1. Go to the [**Releases**](https://app.notion.com/releases/latest) page and download the latest `.apk`.
 2. On your phone, open the file. If prompted, allow **"Install from unknown sources"** for your browser or file manager.
 3. Tap **Install**, then open **MangaVerse**.
 4. (Optional) Sign in to sync your library across devices — or skip and use it fully offline-capable as a guest.
@@ -101,20 +163,30 @@ MangaVerse only asks for what it needs:
 
 ## ❓ FAQ
 
-**Is it free?**
+<details>
+<summary><b>Is it free?</b></summary>
 Yes — completely free, with no ads.
+</details>
 
-**Do I need an account?**
+<details>
+<summary><b>Do I need an account?</b></summary>
 No. You can use MangaVerse as a guest. An account only adds optional cross-device sync.
+</details>
 
-**How do I read offline?**
-Open a chapter's menu and tap **Download**. Downloaded chapters appear under **Downloads** and work without a connection.
+<details>
+<summary><b>How do I read offline?</b></summary>
+Open a chapter's menu and tap <b>Download</b>. Downloaded chapters appear under <b>Downloads</b> and work without a connection.
+</details>
 
-**How do I change reading direction or mode?**
-Use the reader toolbar, or set a default in **Settings → Reader defaults**.
+<details>
+<summary><b>How do I change reading direction or mode?</b></summary>
+Use the reader toolbar, or set a default in <b>Settings → Reader defaults</b>.
+</details>
 
-**Why isn't it on the Play Store?**
-MangaVerse is distributed directly as an APK. Grab the latest from the [Releases](../../releases/latest) page.
+<details>
+<summary><b>Why isn't it on the Play Store?</b></summary>
+MangaVerse is distributed directly as an APK. Grab the latest from the <a href="https://app.notion.com/releases/latest">Releases</a> page.
+</details>
 
 ---
 
