@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="mangaverse%20screenshots/Screenshot_20260630_120702.jpg" width="180" alt="MangaVerse"/>
+<img src="mangaverse%20screenshots/ic_launcher.png" width="180" alt="MangaVerse"/>
 
 # 📖 MangaVerse
 
