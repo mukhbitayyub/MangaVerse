@@ -17,7 +17,7 @@ A fast, beautiful, ad-free manga reader for Android — discover new series, bui
 
 <br>
 
-<a href="https://app.notion.com/releases/latest">
+<a href="https://github.com/mukhbitayyub/MangaVerse/releases/latest">
   <img src="https://img.shields.io/badge/⬇️%20Download%20the%20latest%20APK-181717?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Download APK"/>
 </a>
 
