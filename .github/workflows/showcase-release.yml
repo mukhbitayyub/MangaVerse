@@ -1,0 +1,25 @@
+name: Showcase Release
+
+# Publishes the prebuilt MangaVerse.apk as a GitHub Release when a version
+# tag is pushed. The APK is built by the private source repo's workflow;
+# this repo only mirrors the binary, no app source lives here.
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    name: Publish showcase release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out tag payload
+        uses: actions/checkout@v4
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: MangaVerse.apk
+          body_path: RELEASE_NOTES.md
