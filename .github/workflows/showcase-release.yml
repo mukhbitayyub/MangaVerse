@@ -1,0 +1,58 @@
+name: Showcase Release
+
+# Runs when a version tag is pushed to the showcase repo.
+# The tag payload carries MangaVerse.apk + this workflow only (no app source).
+# Creates the public GitHub Release with the APK attached.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish showcase release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body: |
+            # MangaVerse v1.0.2 — Release Notes
+
+            ## Offline Reader Fix
+
+            Downloaded chapters now open without an internet connection:
+            * **Local page loading**: if the network returns no pages but the chapter is downloaded, the reader builds the pages from your local files.
+            * **No more blank reader**: chapter and detail fetches no longer fail the whole load when offline.
+
+            ## Read Markers Restored
+
+            * **Per-chapter read tracking**: every chapter you open is recorded individually — opening a later chapter never marks earlier ones as read.
+            * **Survives updates**: read state is persisted separately and is no longer wiped by app updates.
+            * **Automatic migration**: your existing read progress is restored the first time you open a series after updating.
+
+            ---
+
+            ## Build Info
+
+            | Key | Value |
+            |-----|-------|
+            | Version | `1.0.2` |
+            | Build | `11` |
+            | APK size | ~69 MB |
+            | Min supported build | `1` |
+            | Released | `2026-10-06` |
+
+            ---
+
+            ## Download
+
+            Grab `MangaVerse.apk` below and sideload it on your device.
+          files: MangaVerse.apk
